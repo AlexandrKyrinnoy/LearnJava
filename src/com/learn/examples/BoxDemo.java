@@ -12,13 +12,8 @@ public class BoxDemo {
         Box myBox2 = new Box();
         double vol;
 
-        myBox.width = 10;
-        myBox.height = 20;
-        myBox.depth = 15;
-
-        myBox2.width = 5;
-        myBox2.height = 10;
-        myBox2.depth = 7.5;
+        myBox.setDimension(10, 20, 15);
+        myBox2.setDimension(5, 10, 7);
 
         System.out.println("Volume 1: " + myBox.volume());
         System.out.println("Volume 2: " + myBox2.volume());

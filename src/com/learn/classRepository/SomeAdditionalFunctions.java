@@ -5,7 +5,7 @@ package com.learn.classRepository;
  */
 public class SomeAdditionalFunctions {
 
-    public int square() {
-        return 10 * 10;
+    public int square(int x) {
+        return x * x;
     }
 }
