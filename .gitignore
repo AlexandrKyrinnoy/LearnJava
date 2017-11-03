@@ -8,7 +8,7 @@
 ## Plugin-specific files:
 
 # IntelliJ
-out/
+out/*
 
 
 ### Custom ###
@@ -21,3 +21,5 @@ prototype/
 
 
 .idea/workspace.xml
+
+out/production/LearnJava/com/learn/classRepository/*.class
