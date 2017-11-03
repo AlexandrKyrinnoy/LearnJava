@@ -9,16 +9,19 @@ public class BoxDemo {
 
     public static void main(String[] args) {
         Box myBox = new Box();
+        Box myBox2 = new Box();
         double vol;
 
         myBox.width = 10;
         myBox.height = 20;
         myBox.depth = 15;
 
-        vol = myBox.width * myBox.height * myBox.depth;
+        myBox2.width = 5;
+        myBox2.height = 10;
+        myBox2.depth = 7.5;
 
-        System.out.println("Volume : " + vol);
-
+        myBox.volume();
+        myBox2.volume();
 
     }
 }
