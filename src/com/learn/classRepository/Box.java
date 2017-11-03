@@ -12,9 +12,21 @@ public class Box {
         return width*height*depth;
     }
 
-    public void setDimension(int pWidth, int pHeight, int pDepth) {
-        width = pWidth;
-        height = pHeight;
-        depth = pDepth;
+    public Box(double pWidth, double pHeight, double pDepth) {
+        this.width = pWidth;
+        this.height = pHeight;
+        this.depth = pDepth;
+    }
+
+    public Box() {
+        this.width = 1;
+        this.height = 1;
+        this.depth = 1;
+    }
+
+    public void setDimension(double pWidth, double pHeight, double pDepth) {
+        this.width = pWidth;
+        this.height = pHeight;
+        this.depth = pDepth;
     }
 }

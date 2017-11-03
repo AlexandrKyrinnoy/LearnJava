@@ -17,6 +17,9 @@ public class BoxDemo {
 
         System.out.println("Volume 1: " + myBox.volume());
         System.out.println("Volume 2: " + myBox2.volume());
+
+        Box myBox3 = new Box(5,5,5);
+        System.out.println("Volume 3: " + myBox3.volume());
     }
 
 }
