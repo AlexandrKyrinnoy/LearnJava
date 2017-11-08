@@ -3,7 +3,7 @@ package com.learn.examples;
 /**
  * Created by Owner on 08.11.2017.
  */
-public class StringDemo {
+public class StringExample {
     public static void main(String[] args) {
         stringDemo3();
     }
