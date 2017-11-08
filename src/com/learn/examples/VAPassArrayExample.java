@@ -19,6 +19,13 @@ public class VAPassArrayExample {
         System.out.println();
     }
 
+    static void vaTest3(int a, int b, int ... v) {
+        System.out.print("Number of args: " + (2+v.length) + ", Contains: a: " + a + ", b: "+ b + ", v: ");
+        for(int x: v)
+            System.out.print(x + " ");
+        System.out.println();
+    }
+
     static void VAPassArrayExampleDemo1() {
         int n1[] = {10};
         int n2[] = {11, 12, 13};
@@ -35,8 +42,14 @@ public class VAPassArrayExample {
         vaTest2();
     }
 
+    static void VAPassArrayExampleDemo3() {
+        vaTest3(3, 4);
+        vaTest3(3, 4, 31, 32);
+        vaTest3(3,4,31, 41, 42, 43);
+    }
+
 
     public static void main(String[] args) {
-        VAPassArrayExampleDemo2();
+        VAPassArrayExampleDemo3();
     }
 }
