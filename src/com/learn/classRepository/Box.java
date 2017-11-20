@@ -19,9 +19,19 @@ public class Box {
     }
 
     public Box() {
-        this.width = 1;
-        this.height = 1;
-        this.depth = 1;
+        this.width = -1;
+        this.height = -1;
+        this.depth = -1;
+    }
+
+    public Box(Box obj) {
+        width = obj.width;
+        height = obj.height;
+        depth = obj.depth;
+    }
+
+    public Box(double len) {
+        width = height = depth = len;
     }
 
     public void setDimension(double pWidth, double pHeight, double pDepth) {
