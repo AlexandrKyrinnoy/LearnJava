@@ -3,7 +3,7 @@ package com.learn.classRepository;
 /**
  * Created by Owner on 20.11.2017.
  */
-public class Figure {
+public abstract class Figure {
     double dim1;
     double dim2;
 
@@ -12,9 +12,6 @@ public class Figure {
         dim2 = pDim2;
     }
 
-    public double area(){
-        System.out.println("The area of the figure is not defined!");
-        return 0;
-    }
+    public abstract double area();
 }
 
