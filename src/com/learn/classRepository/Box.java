@@ -1,7 +1,7 @@
 package com.learn.classRepository;
 
 /**
- * Created by Owner on 03.11.2017.
+ * Created by Owner on 20.11.2017.
  */
 public class Box {
     double width;
